@@ -21,12 +21,14 @@ Then you can run the application with:
 `./goolon`
 
 If docker was installed, run the following command:
-`
+
 `docker build -t googlon -f Dockerfile .`
 
 then to run the container just run the following command:
 
 `docker run -d -p 8080:8080 googlon`
+
+NOTE: If nothing was installed, the binary file was uploaded also, just run the binary `googlon` that is located in the root folder
 
 #### Testing the application
 
