@@ -21,7 +21,7 @@ Then you can run the application with:
 `./goolon`
 
 If docker was installed, run the following command:
-
+`
 `docker build -t googlon -f Dockerfile .`
 
 then to run the container just run the following command:
